@@ -1,0 +1,15 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          uaa:
+            client-id: the-client-id
+            client-secret: secret
+            authorization-grant-type: client_credentials
+            scope: message.read
+        provider:
+          uaa:
+            issuer-uri: http://localhost:8090/uaa/oauth/token
+  main:
+    web-application-type: none

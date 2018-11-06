@@ -1,0 +1,2 @@
+include ':uaa-server'
+include ':webclient'
