@@ -1,0 +1,15 @@
+= Directions
+
+Run the https://github.com/cloudfoundry/uaa[UAA] (OAuth Authorization Server) using
+
+[source,bash]
+----
+./gradlew uaa-server:uaa
+----
+
+In another terminal run the https://github.com/rwinch/uaa-sample/blob/master/webclient/src/test/java/sample/webclient/WebclientApplicationTests.java[test]
+
+[source,bash]
+----
+./gradlew webclient:test
+----
