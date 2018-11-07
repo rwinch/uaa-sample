@@ -7,7 +7,7 @@ Run the https://github.com/cloudfoundry/uaa[UAA] (OAuth Authorization Server) us
 ./gradlew uaa-server:uaa
 ----
 
-In another terminal run the https://github.com/rwinch/uaa-sample/blob/master/webclient/src/test/java/sample/webclient/WebclientApplicationTests.java[test]
+In another terminal run the https://github.com/rwinch/uaa-sample/blob/master/webclient/src/test/java/sample/webclient/WebclientApplicationTests.java[test] which will submit an access token to http://localhost:8080/message which must be created externally.
 
 [source,bash]
 ----
